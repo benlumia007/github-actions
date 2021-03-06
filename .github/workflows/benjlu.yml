@@ -6,8 +6,8 @@ on:
 
 jobs:
   job1:
-    name: npm
-    runs-on: ubuntu-latest
+    name: build
+    runs-on: self-hosted
     steps:
       - name: step one
         uses: actions/checkout@v2
