@@ -1,0 +1,12 @@
+name: benjlu
+  push:
+    branches: [ main ]
+
+jobs:
+  job1:
+    name: npm
+    runs-on: ubuntu-latest
+    steps:
+      - step one
+        uses: actions/checkout@v2
+        run: npm i
