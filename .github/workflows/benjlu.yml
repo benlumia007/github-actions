@@ -5,8 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  job1:
-    name: build
+  build:
     runs-on: self-hosted
     steps:
       - name: step one
@@ -15,5 +14,3 @@ jobs:
         run: npm i
       - name: step three
         run: composer install
-      - name: step four
-        run: rm /home/benlu/public_html/index.html
