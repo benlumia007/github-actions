@@ -1,4 +1,6 @@
 name: benjlu
+
+on:
   push:
     branches: [ main ]
 
