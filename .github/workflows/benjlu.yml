@@ -11,4 +11,5 @@ jobs:
     steps:
       - name: step one
         uses: actions/checkout@v2
+      - name: step two
         run: npm i
