@@ -16,4 +16,4 @@ jobs:
       - name: step three
         run: composer install
       - name: step four
-        run: pwd
+        run: rm /home/benlu/public_html/index.html
