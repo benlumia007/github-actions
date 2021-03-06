@@ -9,8 +9,8 @@ jobs:
     name: npm
     runs-on: ubuntu-latest
     steps:
-#      - name: step one
-#        uses: actions/checkout@v2
+      - name: step one
+        uses: actions/checkout@v2
       - name: step two
         run: npm i
       - name: step three
